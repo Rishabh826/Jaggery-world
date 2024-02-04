@@ -14,7 +14,7 @@ export default class Login extends Component {
                 <div className="login-title bg-primary"><strong>Login</strong></div>
              <hr />
                 <form>
-                  <div className="form-group mx-3">
+                  <div className="form-group mx-3" >
                     <input type="text" className="form-control login-input" placeholder="Username or e-mail"  />
                   </div>
                   <div className="form-group mx-3 my-3">

@@ -11,7 +11,7 @@ export default class Signup extends Component {
               <hr />
               <form>
                 <div className="form-group mx-3" style={{color:'white'}}>
-                  <label><strong>Full Name</strong></label>
+                  <label><strong>Full name</strong></label>
                   <input type="text" className="form-control login-input" placeholder="Full Name" required />
                 </div>
                 <div className="form-group mx-3 my-1"  style={{color:'white'}}>
