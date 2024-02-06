@@ -4,7 +4,7 @@ export default class Signup extends Component {
   render() {
     return (
         <div style={{justifyContent:'center'}}>
-      <div className="p-3 mb-2 bg-info text-white " style={{height:'79vh'}}>
+      <div className="d-flex justify-content-center" style={{height:'79vh'}}>
         <div className="col-md-6 my-10" >
             <div className="card rotate" id="cardBack"  style={{backgroundImage:'url(https://c4.wallpaperflare.com/wallpaper/67/573/246/waterfall-amazon-nature-water-wallpaper-preview.jpg)'}}>
               <div className="login-title bg-success "><strong> Sign Up</strong></div>
