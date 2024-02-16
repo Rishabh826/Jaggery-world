@@ -12,6 +12,7 @@ export default function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
+        <Route exact path="/BsHospitalFill" element={<Container />} />
         <Route exact path="/" element={<Container />} />
         <Route exact path="/Home" element={<Container />} />
         <Route exact path="/Bsfillpersonfill" element={<Login/>} />

@@ -24,7 +24,7 @@ export default class Container extends Component {
       <img src="..." className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Card title</h5>
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sunt quam rerum praesentium impedit cumque tempore, nisi consequuntur pariatur officia!</p>
         <a href="/" className="btn btn-success">Profile</a>
       </div>
     </div>
@@ -32,7 +32,7 @@ export default class Container extends Component {
       <img src="..." className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Card title</h5>
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p className="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat illum iste molestiae dolorum recusandae ad voluptatem voluptas, aliquam perferendis molestias.</p>
         <a href="/" className="btn btn-success">Profile</a>
       </div>
     </div>
@@ -40,7 +40,7 @@ export default class Container extends Component {
       <img src="..." className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Card title</h5>
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium iure asperiores corrupti quasi consectetur possimus fuga nesciunt est maiores perferendis facere vel aliquid explicabo veniam dignissimos tempora, dolore quis! Fugit.</p>
         <a href="/" className="btn btn-success">Profile</a>
       </div>
     </div>

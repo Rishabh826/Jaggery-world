@@ -1,19 +1,27 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { BsFillPersonFill, BsBasketFill } from 'react-icons/bs';
+import { FaHome } from "react-icons/fa";
 
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+      <nav className="navbar bg-dark border-bottom border-body sticky-top" data-bs-theme="dark">
         <div className="container-fluid">
-          <h1 style={{ color: 'white' }}>Jaggery world</h1>
+       
+          <h2 style={{ color: 'white' }}>Jaggery world</h2>
+          
           <div className="d-flex justify-content-end" style={{ color: 'white', fontSize: '30px', cursor: 'pointer' }}>
-          <div className="mx-4">
-  <Link className="nav-link" to="/Bsfillpersonfill">
-    <BsFillPersonFill />
-  </Link>
-</div>
+        <div className="mx-4">
+              <Link className="nav-link" to="/BsHospitalFill">
+              <FaHome />
+              </Link>
+            </div>
+            <div className="mx-4">
+              <Link className="nav-link" to="/Bsfillpersonfill">
+                <BsFillPersonFill />
+              </Link>
+            </div>
 
             <div className="mx-3">
               <BsBasketFill />
