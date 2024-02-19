@@ -54,7 +54,7 @@ class Navbar extends Component {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/contactUs">
+                  <Link className="nav-link" to="/ContactUs">
                     Contact Us
                   </Link>
                 </li>
