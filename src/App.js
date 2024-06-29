@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import React from 'react';
 import AboutUs from './components/AboutUs';
 import Container from './components/Container';
@@ -10,7 +10,7 @@ import ContactUs from './components/ContactUS';
 export default function App() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar />
         <Routes>
         <Route exact path="/BsHospitalFill" element={<Container />} />
@@ -21,7 +21,7 @@ export default function App() {
           <Route exact path="/ContactUs" element={<ContactUs />} />
           <Route exact path="/Signup" element={<Signup />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
